@@ -1,5 +1,5 @@
 {
-    "name": "codesleeve/laravel-stapler",
+    "name": "hollogram/laravel-stapler",
     "description": "Easy file upload management for the Laravel Framework.",
     "keywords": ["laravel", "file", "upload", "S3", "AWS", "stapler", "paperclip"],
     "license": "MIT",
@@ -9,15 +9,9 @@
             "email": "tandrewbennett@hotmail.com"
         }
     ],
-    "repositories": [
-        {
-            "type": "vcs",
-            "url": "https://github.com/hollogram/stapler"
-        }
-    ],
     "require": {
         "php": ">=5.4.0",
-        "codesleeve/stapler": "master",
+        "hollogram/stapler": "1.2.*",
         "laravel/framework": "4.*|5.*"
     },
     "autoload": {
