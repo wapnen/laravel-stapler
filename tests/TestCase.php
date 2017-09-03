@@ -17,7 +17,7 @@ class TestCase extends \PHPUnit_Framework_TestCase {
     {
         $app = new Application;
         $app->instance('app', $app);
-        $app->register('Codesleeve\LaravelStapler\LaravelStaplerServiceProvider');
+        $app->register('Hollogram\LaravelStapler\LaravelStaplerServiceProvider');
         Facade::setFacadeApplication($app);
     }
 

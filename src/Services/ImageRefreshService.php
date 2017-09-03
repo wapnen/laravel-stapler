@@ -1,8 +1,8 @@
 <?php
 
-namespace Codesleeve\LaravelStapler\Services;
+namespace Hollogram\LaravelStapler\Services;
 
-use Codesleeve\LaravelStapler\Exceptions\InvalidClassException;
+use Hollogram\LaravelStapler\Exceptions\InvalidClassException;
 use Illuminate\Database\Eloquent\Collection;
 use Illuminate\Foundation\Application;
 use Symfony\Component\Console\Helper\ProgressBar;

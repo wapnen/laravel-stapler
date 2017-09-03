@@ -1,11 +1,11 @@
 <?php
 
-namespace Codesleeve\LaravelStapler;
+namespace Hollogram\LaravelStapler;
 
 use Config;
 use Illuminate\Support\ServiceProvider;
-use Codesleeve\LaravelStapler\Services\ImageRefreshService;
-use Codesleeve\Stapler\Stapler;
+use Hollogram\LaravelStapler\Services\ImageRefreshService;
+use Hollogram\Stapler\Stapler;
 
 class LaravelStaplerServiceProvider extends ServiceProvider
 {

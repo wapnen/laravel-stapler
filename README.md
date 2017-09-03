@@ -38,23 +38,23 @@ Once this operation completes, the final step is to add the service provider.
 
 For Laravel 4, Open `app/config/app.php`, and add a new item to the providers array:
 ```php
-    'Codesleeve\LaravelStapler\Providers\L4ServiceProvider'
+    'Hollogram\LaravelStapler\Providers\L4ServiceProvider'
 ```
 
 For Laravel 5, Open `config/app.php`, and add a new item to the providers array:
 ```php
-    'Codesleeve\LaravelStapler\Providers\L5ServiceProvider'
+    'Hollogram\LaravelStapler\Providers\L5ServiceProvider'
 ```
 
 ## Deprecations
-As of 1.0.04, the 'Codesleeve\LaravelStapler\LaravelStaplerServiceProvider' service provider has been deprecated
+As of 1.0.04, the 'Hollogram\LaravelStapler\LaravelStaplerServiceProvider' service provider has been deprecated
 (this provider will be removed in the next major release).  Instead, you should now be using the corresponding service provider for the specific version
 of Laravel that you're using.
 
 ## migrating-from-Stapler-v1.0.0-Beta4
 If you've been using Stapler (prior to v1.0.0-Beta4) in your Laravel app, you now need to be using this package instead.  Uninstall Stapler (remove it from your composer.json, remove the service provider, etc) and install this package following the instructions above.  Once installed, the following changes may need need to be made in your application:
 
-* In your models that are using Stapler, change `use Codesleeve\Stapler\Stapler` to `use Codesleeve\Stapler\ORM\EloquentTrait`.  Your models will also need to implement `Codesleeve\Stapler\ORM\StaplerableInterface`.
+* In your models that are using Stapler, change `use Hollogram\Stapler\Stapler` to `use Hollogram\Stapler\ORM\EloquentTrait`.  Your models will also need to implement `Hollogram\Stapler\ORM\StaplerableInterface`.
 
 * If you published stapler's config, you'll need to rename config folder from `app/config/packages/codesleeve/stapler` to `app/config/packages/codesleeve/laravel-stapler`.
 
@@ -73,8 +73,8 @@ grant your application write permissions to it.  For this, we're assuming the ex
 In your model:
 
 ```php
-use Codesleeve\Stapler\ORM\StaplerableInterface;
-use Codesleeve\Stapler\ORM\EloquentTrait;
+use Hollogram\Stapler\ORM\StaplerableInterface;
+use Hollogram\Stapler\ORM\EloquentTrait;
 
 class User extends Eloquent implements StaplerableInterface {
 	use EloquentTrait;

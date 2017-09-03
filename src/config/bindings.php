@@ -11,7 +11,7 @@ return [
     |
     */
 
-    'attachment' => '\Codesleeve\Stapler\Attachment',
+    'attachment' => '\Hollogram\Stapler\Attachment',
 
     /*
     |--------------------------------------------------------------------------
@@ -22,7 +22,7 @@ return [
     |
     */
 
-    'interpolator' => '\Codesleeve\Stapler\Interpolator',
+    'interpolator' => '\Hollogram\Stapler\Interpolator',
 
     /*
     |--------------------------------------------------------------------------
@@ -33,7 +33,7 @@ return [
     |
     */
 
-    'resizer' => '\Codesleeve\Stapler\File\Image\Resizer',
+    'resizer' => '\Hollogram\Stapler\File\Image\Resizer',
 
     /*
     |--------------------------------------------------------------------------
@@ -43,7 +43,7 @@ return [
     | The concrete implementation for the style contract.
     |
     */
-    'style' => '\Codesleeve\Stapler\Style',
+    'style' => '\Hollogram\Stapler\Style',
 
     /*
     |--------------------------------------------------------------------------
@@ -53,6 +53,6 @@ return [
     | The concrete implementation for the validator contract.
     |
     */
-    'validator' => '\Codesleeve\Stapler\Validator',
+    'validator' => '\Hollogram\Stapler\Validator',
 
 ];

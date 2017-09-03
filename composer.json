@@ -19,7 +19,7 @@
             "src/migrations"
         ],
         "psr-4": {
-            "Codesleeve\\LaravelStapler\\": "src/"
+            "Hollogram\\LaravelStapler\\": "src/"
         }
     },
     "minimum-stability": "stable"

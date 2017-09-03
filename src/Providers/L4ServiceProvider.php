@@ -1,10 +1,10 @@
 <?php
 
-namespace Codesleeve\LaravelStapler\Providers;
+namespace Hollogram\LaravelStapler\Providers;
 
-use Codesleeve\LaravelStapler\IlluminateConfig;
-use Codesleeve\Stapler\Stapler;
-use Codesleeve\LaravelStapler\Commands\FastenCommand;
+use Hollogram\LaravelStapler\IlluminateConfig;
+use Hollogram\Stapler\Stapler;
+use Hollogram\LaravelStapler\Commands\FastenCommand;
 use Config;
 
 class L4ServiceProvider extends ServiceProvider
