@@ -30,7 +30,7 @@ Install the package using Composer.  Edit your project's `composer.json` file to
 ```js
   "require": {
     "laravel/framework": "4.*",
-    "codesleeve/laravel-stapler": "1.0.*"
+    "hollogram/laravel-stapler": "1.0.*"
   }
 ```
 

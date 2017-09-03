@@ -21,7 +21,7 @@ class L4ServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        $this->package('codesleeve/laravel-stapler', null, dirname(__DIR__));
+        $this->package('hollogram/laravel-stapler', null, dirname(__DIR__));
         $this->bootstrapStapler();
     }
 

@@ -21,7 +21,7 @@ class LaravelStaplerServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        $this->package('codesleeve/laravel-stapler', null, __DIR__);
+        $this->package('hollogram/laravel-stapler', null, __DIR__);
         $this->bootstrapStapler();
     }
 
