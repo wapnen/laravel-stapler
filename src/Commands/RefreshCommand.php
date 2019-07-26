@@ -43,6 +43,8 @@ class RefreshCommand extends Command
         $this->imageRefreshService = $imageRefreshService;
     }
 
+    public function handle() { $this->fire(); }
+
     /**
      * Execute the console command.
      */
