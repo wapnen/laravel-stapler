@@ -26,28 +26,28 @@ class FastenCommand extends Command
 
     /**
      * An instance of Laravel's view factory.
-     * 
+     *
      * @var View
      */
     protected $view;
 
     /**
      * An instance of Laravel's filesystem.
-     * 
+     *
      * @var File
      */
     protected $file;
 
     /**
      * The path to the application's migrations folder.
-     * 
+     *
      * @var File
      */
     protected $migrationsFolderPath;
 
     /**
      * Create a new command instance.
-     * 
+     *
      * @param View   $view
      * @param File   $file
      * @param string $migrationsFolderPath
@@ -60,6 +60,8 @@ class FastenCommand extends Command
         $this->file = $file;
         $this->migrationsFolderPath = $migrationsFolderPath;
     }
+
+    public function handle() { $this->fire(); }
 
     /**
      * Execute the console command.
